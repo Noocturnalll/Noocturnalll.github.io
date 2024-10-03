@@ -1,0 +1,165 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.checkout-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.cart-items,
+.billing-info {
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.total-price {
+  text-align: right;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+@keyframes slide-top {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-50px) rotate(90deg); /* Adjusted translateY */
+  }
+
+  60% {
+    transform: translateY(-50px) rotate(90deg); /* Adjusted translateY */
+  }
+
+  100% {
+    transform: translateY(-5px) rotate(90deg); /* Adjusted translateY */
+  }
+}
+
+@keyframes slide-post {
+  50% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-50px); /* Adjusted translateY */
+  }
+}
+/* assets/css/checkout.css */
+
+.checkout-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+.cart-items,
+.billing-info {
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.total-price {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.btn-action {
+  border: none;
+  background: none;
+  color: #e74c3c;
+  cursor: pointer;
+}
+
+.btn-action i {
+  font-size: 1.2em;
+}
+
+.checkout-actions {
+  text-align: center;
+}
+
+#checkout-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 15px 25px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#checkout-button:hover {
+  background-color: #2980b9;
+}
+#index-button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#index-button:hover {
+  background-color: darkgreen;
+}
